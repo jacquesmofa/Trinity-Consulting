@@ -1,0 +1,92 @@
+{
+  "albums": [
+    {
+      "slug": "our-work",
+      "title": "Consulting, Training & Community",
+      "description": "Workshops, planning sessions, coaching and community partnerships.",
+      "alt": "TICS consulting work",
+      "photos": [
+        {
+          "src": "https://readdy.ai/api/search-image?query=Professional%20Black%20translator%20working%20with%20multiple%20languages%20on%20computer%20screen%2C%20modern%20workspace%20with%20international%20flags%20and%20documents%2C%20focused%20professional%20environment%2C%20cultural%20diversity%20theme%2C%20natural%20lighting%2C%20high%20detail%20photography&width=600&height=800&seq=tr1&orientation=portrait",
+          "alt": "Black translator working with multiple languages on computer screen"
+        },
+        {
+          "src": "https://readdy.ai/api/search-image?query=professional%20business%20conference%20with%20black%20keynote%20speaker%20presenting%20to%20large%20audience%20modern%20conference%20hall%20engaged%20attendees%20taking%20notes%20networking%20event%20corporate%20seminar%20setting&width=800&height=600&seq=seminar001&orientation=landscape",
+          "alt": "Business conference with black keynote speaker presenting to large audience modern conference hall engaged attendees taking"
+        },
+        {
+          "src": "https://readdy.ai/api/search-image?query=diverse%20group%20of%20black%20professionals%20networking%20at%20business%20conference%20modern%20venue%20interactive%20panel%20discussion%20thought%20leaders%20sharing%20insights%20collaborative%20learning%20environment&width=700&height=600&seq=seminar002&orientation=portrait",
+          "alt": "Diverse group of black professionals networking at business conference modern venue interactive panel discussion thought leaders"
+        },
+        {
+          "src": "https://readdy.ai/api/search-image?query=successful%20business%20conference%20attendees%20networking%20black%20professionals%20exchanging%20business%20cards%20modern%20corporate%20event%20happy%20engaged%20participants%20professional%20atmosphere&width=700&height=800&seq=seminar003&orientation=portrait",
+          "alt": "Successful business conference attendees networking black professionals exchanging business cards modern corporate event happy engaged participants"
+        },
+        {
+          "src": "https://readdy.ai/api/search-image?query=Professional%20Black%20entrepreneur%20signing%20business%20documents%20at%20modern%20desk%2C%20confident%20expression%2C%20business%20registration%20papers%20visible%2C%20professional%20office%20environment%2C%20natural%20lighting%2C%20success%20and%20new%20beginnings%20theme%2C%20high%20detail%20photography&width=600&height=800&seq=br1&orientation=portrait",
+          "alt": "Black entrepreneur signing business documents at modern desk"
+        },
+        {
+          "src": "https://readdy.ai/api/search-image?query=Professional%20Black%20business%20consultants%20working%20with%20diverse%20team%20on%20organizational%20development%20and%20capacity%20building%20in%20modern%20office%2C%20collaborative%20meeting%2C%20strategic%20planning%20session%2C%20professional%20photography%2C%20natural%20lighting%2C%20high%20quality&width=600&height=800&seq=capacity-building-hero&orientation=portrait",
+          "alt": "Black business consultants working with diverse team on organizational development and capacity building in modern office"
+        },
+        {
+          "src": "https://readdy.ai/api/search-image?query=Diverse%20group%20of%20Black%20professionals%20and%20community%20leaders%20in%20collaborative%20meeting%20discussing%20equity%20and%20inclusion%2C%20warm%20professional%20environment%2C%20engaged%20conversation%2C%20modern%20office%20setting%2C%20natural%20lighting%2C%20authentic%20representation%2C%20high%20detail%20photography&width=600&height=800&seq=rse1&orientation=portrait",
+          "alt": "Diverse group of Black professionals and community leaders in collaborative meeting discussing equity and inclusion"
+        },
+        {
+          "src": "https://readdy.ai/api/search-image?query=diverse%20group%20of%20black%20professionals%20in%20modern%20training%20workshop%20interactive%20learning%20session%20with%20instructor%20presenting%20on%20whiteboard%20collaborative%20team%20building%20environment%20professional%20corporate%20training%20setting&width=800&height=600&seq=workshop001&orientation=landscape",
+          "alt": "Diverse group of black professionals in modern training workshop interactive learning session with instructor presenting"
+        },
+        {
+          "src": "https://readdy.ai/api/search-image?query=black%20business%20trainer%20leading%20professional%20development%20workshop%20engaged%20participants%20taking%20notes%20modern%20corporate%20training%20room%20collaborative%20learning%20atmosphere&width=700&height=600&seq=workshop002&orientation=portrait",
+          "alt": "Black business trainer leading professional development workshop engaged participants taking notes modern corporate training room collaborative"
+        },
+        {
+          "src": "https://readdy.ai/api/search-image?query=black%20professional%20grant%20writer%20working%20on%20laptop%20reviewing%20funding%20documents%20modern%20office%20setting%20focused%20concentration%20professional%20business%20environment%20organized%20workspace%20with%20papers%20and%20coffee&width=800&height=600&seq=grant001&orientation=landscape",
+          "alt": "Black professional grant writer working on laptop reviewing funding documents modern office setting focused concentration professional"
+        },
+        {
+          "src": "https://readdy.ai/api/search-image?query=successful%20black%20business%20team%20celebrating%20grant%20approval%20holding%20documents%20smiling%20professionals%20in%20modern%20office%20achievement%20moment%20collaborative%20success%20corporate%20environment&width=700&height=600&seq=grant002&orientation=portrait",
+          "alt": "Successful black business team celebrating grant approval holding documents smiling professionals in modern office achievement moment"
+        },
+        {
+          "src": "https://readdy.ai/api/search-image?query=Professional%20Black%20career%20counselor%20helping%20job%20seeker%20with%20resume%20review%2C%20one-on-one%20career%20guidance%20session%2C%20supportive%20mentoring%2C%20modern%20office%20setting%2C%20professional%20photography%2C%20warm%20natural%20lighting%2C%20high%20quality&width=600&height=800&seq=job-search-hero&orientation=portrait",
+          "alt": "Black career counselor helping job seeker with resume review"
+        },
+        {
+          "src": "https://readdy.ai/api/search-image?query=Professional%20Black%20marketing%20team%20collaborating%20on%20campaign%20strategy%2C%20modern%20office%20with%20marketing%20materials%20and%20digital%20screens%2C%20creative%20brainstorming%20session%2C%20diverse%20team%20members%20engaged%20in%20discussion%2C%20bright%20professional%20environment%2C%20high%20detail%20photography&width=600&height=800&seq=sm1&orientation=portrait",
+          "alt": "Black marketing team collaborating on campaign strategy"
+        },
+        {
+          "src": "https://readdy.ai/api/search-image?query=Professional%20Black%20life%20coach%20mentoring%20young%20professional%20in%20modern%20office%20setting%2C%20one-on-one%20coaching%20session%2C%20supportive%20conversation%2C%20personal%20development%2C%20professional%20photography%2C%20warm%20natural%20lighting%2C%20high%20quality&width=600&height=800&seq=coaching-hero&orientation=portrait",
+          "alt": "Black life coach mentoring young professional in modern office setting"
+        },
+        {
+          "src": "https://readdy.ai/api/search-image?query=professional%20black%20male%20managing%20director%20in%20business%20casual%20confident%20smile%20executive%20photo&width=120&height=120&seq=whyus005&orientation=squarish",
+          "alt": "Black male managing director in business casual confident smile executive photo"
+        },
+        {
+          "src": "https://readdy.ai/api/search-image?query=successful%20diverse%20team%20of%20black%20professionals%20celebrating%20achievement%20in%20modern%20office%20high-five%20teamwork%20collaboration%20victory%20professional%20business%20environment&width=1920&height=800&seq=whyus-hero001&orientation=landscape",
+          "alt": "Successful diverse team of black professionals celebrating achievement in modern office high-five teamwork collaboration victory professional"
+        },
+        {
+          "src": "https://readdy.ai/api/search-image?query=black%20business%20consultant%20presenting%20data%20analytics%20on%20screen%20to%20diverse%20team%20modern%20office%20professional%20meeting&width=400&height=500&seq=impact001&orientation=portrait",
+          "alt": "Black business consultant presenting data analytics on screen to diverse team modern office professional meeting"
+        },
+        {
+          "src": "https://readdy.ai/api/search-image?query=diverse%20team%20of%20professionals%20collaborating%20on%20strategy%20whiteboard%20brainstorming%20session%20modern%20workspace&width=400&height=500&seq=impact002&orientation=portrait",
+          "alt": "Diverse team of professionals collaborating on strategy whiteboard brainstorming session modern workspace"
+        },
+        {
+          "src": "https://readdy.ai/api/search-image?query=black%20female%20executive%20leading%20workshop%20training%20session%20engaged%20participants%20professional%20development&width=400&height=500&seq=impact003&orientation=portrait",
+          "alt": "Black female executive leading workshop training session engaged participants professional development"
+        },
+        {
+          "src": "https://readdy.ai/api/search-image?query=successful%20black%20entrepreneur%20celebrating%20business%20achievement%20modern%20office%20professional%20success&width=400&height=500&seq=impact004&orientation=portrait",
+          "alt": "Successful black entrepreneur celebrating business achievement modern office professional success"
+        }
+      ]
+    }
+  ]
+}

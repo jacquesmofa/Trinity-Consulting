@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import SiteGallery from '../../components/feature/SiteGallery';
 
 export default function HomePage() {
   const [scrolled, setScrolled] = useState(false);
@@ -99,14 +100,6 @@ export default function HomePage() {
     { id: 12, title: 'Translation Services', description: 'Professional translation to break language barriers and expand your global reach.', icon: 'ri-translate', link: '/services/translation' },
   ];
 
-  const testimonials = [
-    { quote: 'TICS transformed our organization with their strategic planning expertise. Their innovative approach helped us achieve results we never thought possible.', client: 'Marcus Johnson', company: 'TechStart Inc.', image: 'https://readdy.ai/api/search-image?query=professional%20black%20male%20executive%20in%20modern%20office%20wearing%20business%20suit%20confident%20smile%20corporate%20headshot%20simple%20neutral%20background&width=120&height=120&seq=test001&orientation=squarish' },
-    { quote: 'The grant writing services provided by TICS secured crucial funding for our community programs. Their attention to detail and understanding of our mission was exceptional.', client: 'Aisha Williams', company: 'Community Forward', image: 'https://readdy.ai/api/search-image?query=professional%20black%20female%20leader%20in%20business%20attire%20warm%20smile%20executive%20portrait%20simple%20clean%20background&width=120&height=120&seq=test002&orientation=squarish' },
-    { quote: 'Working with TICS on our racial equity initiatives has been transformative. They bring both expertise and genuine commitment to creating lasting change.', client: 'David Thompson', company: 'Equity Solutions', image: 'https://readdy.ai/api/search-image?query=professional%20black%20businessman%20in%20suit%20confident%20expression%20corporate%20headshot%20neutral%20simple%20background&width=120&height=120&seq=test003&orientation=squarish' },
-    { quote: 'The coaching and life skills programs have empowered our team members to reach new heights. TICS truly understands how to unlock human potential.', client: 'Jasmine Carter', company: 'Growth Dynamics', image: 'https://readdy.ai/api/search-image?query=professional%20black%20woman%20executive%20in%20blazer%20friendly%20smile%20business%20portrait%20clean%20neutral%20background&width=120&height=120&seq=test004&orientation=squarish' },
-    { quote: 'Their business analysis revealed opportunities we had overlooked for years. The ROI from working with TICS has been remarkable.', client: 'Robert Mitchell', company: 'Innovate Corp', image: 'https://readdy.ai/api/search-image?query=professional%20black%20male%20consultant%20in%20business%20casual%20confident%20smile%20executive%20photo%20simple%20background&width=120&height=120&seq=test005&orientation=squarish' },
-    { quote: 'TICS helped us navigate the complexities of business registration and set up our company for success from day one.', client: 'Nicole Brown', company: 'StartUp Ventures', image: 'https://readdy.ai/api/search-image?query=professional%20black%20female%20entrepreneur%20in%20professional%20attire%20warm%20expression%20business%20headshot%20neutral%20background&width=120&height=120&seq=test006&orientation=squarish' },
-  ];
 
   return (
     <div className="min-h-screen bg-white">
@@ -346,31 +339,18 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="py-24 bg-white" id="testimonials" data-animate>
+      {/* Gallery */}
+      <section className="py-24 bg-white" id="gallery" data-animate>
         <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h3 className="font-serif text-5xl font-bold text-blue-900 mb-4">Client Success Stories</h3>
-            <p className="text-xl text-gray-600">Hear from organizations we've empowered</p>
+          <div className="text-center mb-14">
+            <p className="text-red-600 uppercase tracking-[0.25em] text-sm font-semibold">Gallery</p>
+            <h2 className="font-serif text-4xl md:text-5xl font-bold text-blue-900 mt-3">Our Work in Pictures</h2>
+            <div className="w-20 h-1 bg-red-600 mx-auto mt-6"></div>
           </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <div key={index} className="bg-blue-50 rounded-3xl p-8 shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 relative cursor-pointer">
-                <div className="text-red-600 text-8xl font-serif absolute top-4 left-4 opacity-20">"</div>
-                <p className="font-serif italic text-gray-700 text-lg mb-6 relative z-10 leading-relaxed">{testimonial.quote}</p>
-                <div className="flex items-center justify-between">
-                  <div>
-                    <p className="font-bold text-blue-900">{testimonial.client}</p>
-                    <p className="text-gray-600 text-sm">{testimonial.company}</p>
-                  </div>
-                  <div className="w-16 h-16">
-                    <img src={testimonial.image} alt={`${testimonial.client} - ${testimonial.company}`} className="w-full h-full rounded-full object-cover border-2 border-red-600" loading="lazy" />
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+          <SiteGallery
+            note="These pictures are illustrations until our own photos are added."
+            theme={{ layout: 'grid', ink: '#1e3a8a', muted: '#4b5563', accent: '#dc2626', accentInk: '#ffffff', tabBg: '#dbeafe', radius: '0', headingClass: 'font-serif' }}
+          />
         </div>
       </section>
 
