@@ -51,50 +51,6 @@ export default function WhyUsPage() {
     }
   ];
 
-  const testimonials = [
-    {
-      quote: 'TICS transformed our entire approach to strategic planning. Their innovative methodology helped us achieve a 300% increase in program effectiveness within just 18 months. The team truly understands what it takes to drive organizational excellence.',
-      client: 'Marcus Johnson',
-      company: 'TechStart Inc.',
-      role: 'CEO',
-      image: 'https://readdy.ai/api/search-image?query=professional%20black%20male%20ceo%20in%20executive%20suit%20confident%20leadership%20portrait%20modern%20corporate%20office%20background&width=120&height=120&seq=whyus001&orientation=squarish'
-    },
-    {
-      quote: 'The grant writing expertise at TICS is unmatched. They secured $2.5 million in funding for our community programs, and their attention to detail and understanding of our mission was absolutely exceptional. We couldn\'t have done it without them.',
-      client: 'Aisha Williams',
-      company: 'Community Forward',
-      role: 'Executive Director',
-      image: 'https://readdy.ai/api/search-image?query=professional%20black%20female%20executive%20director%20in%20business%20attire%20warm%20confident%20smile%20leadership%20portrait&width=120&height=120&seq=whyus002&orientation=squarish'
-    },
-    {
-      quote: 'Working with TICS on our racial equity initiatives has been truly transformative. They bring both deep expertise and genuine commitment to creating lasting change. Our organization is now a model for inclusive practices in our industry.',
-      client: 'David Thompson',
-      company: 'Equity Solutions',
-      role: 'Founder',
-      image: 'https://readdy.ai/api/search-image?query=professional%20black%20male%20founder%20in%20business%20suit%20confident%20professional%20portrait%20corporate%20setting&width=120&height=120&seq=whyus003&orientation=squarish'
-    },
-    {
-      quote: 'The coaching and capacity building programs have empowered our entire team to reach new heights. TICS truly understands how to unlock human potential and build organizational infrastructure for sustainable growth.',
-      client: 'Jasmine Carter',
-      company: 'Growth Dynamics',
-      role: 'VP of Operations',
-      image: 'https://readdy.ai/api/search-image?query=professional%20black%20female%20vp%20in%20elegant%20business%20attire%20friendly%20professional%20demeanor%20executive%20portrait&width=120&height=120&seq=whyus004&orientation=squarish'
-    },
-    {
-      quote: 'Their business analysis revealed opportunities we had overlooked for years. The ROI from working with TICS has been remarkable—we\'ve seen a 250% increase in revenue and expanded into three new markets.',
-      client: 'Robert Mitchell',
-      company: 'Innovate Corp',
-      role: 'Managing Director',
-      image: 'https://readdy.ai/api/search-image?query=professional%20black%20male%20managing%20director%20in%20business%20casual%20confident%20smile%20executive%20photo&width=120&height=120&seq=whyus005&orientation=squarish'
-    },
-    {
-      quote: 'TICS helped us navigate the complexities of business registration and strategic planning from day one. Their comprehensive approach set our company up for success, and we\'ve grown 400% in just three years.',
-      client: 'Nicole Brown',
-      company: 'StartUp Ventures',
-      role: 'Founder & CEO',
-      image: 'https://readdy.ai/api/search-image?query=professional%20black%20female%20founder%20in%20professional%20attire%20warm%20inspiring%20expression%20business%20headshot&width=120&height=120&seq=whyus006&orientation=squarish'
-    }
-  ];
 
   const comparisons = [
     { feature: 'Years of Experience', tics: '18+ Years', others: '5-10 Years' },
@@ -234,34 +190,6 @@ export default function WhyUsPage() {
         </div>
       </section>
 
-      {/* Success Stories */}
-      <section className="py-24 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="font-serif text-5xl font-bold text-blue-900 mb-4">Real Results from Real Clients</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">Don't just take our word for it—hear from the organizations we've empowered to achieve excellence.</p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <div key={index} className="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 relative">
-                <div className="text-red-600 text-8xl font-serif absolute top-4 left-4 opacity-20">"</div>
-                <p className="font-serif italic text-gray-700 text-lg mb-6 relative z-10 leading-relaxed">{testimonial.quote}</p>
-                <div className="flex items-center space-x-4">
-                  <div className="w-16 h-16 flex-shrink-0">
-                    <img src={testimonial.image} alt={testimonial.client} className="w-full h-full rounded-full object-cover border-2 border-red-600" />
-                  </div>
-                  <div>
-                    <p className="font-bold text-blue-900">{testimonial.client}</p>
-                    <p className="text-gray-600 text-sm">{testimonial.role}</p>
-                    <p className="text-red-600 text-sm font-semibold">{testimonial.company}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Visual Impact */}
       <section className="py-24 bg-blue-900 text-white">
